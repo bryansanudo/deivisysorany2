@@ -129,7 +129,7 @@ const History = () => {
       subtitle={`
       El día que decidimos unir nuestras vidas, lo hicimos con la sincera intención de caminar, reír, llorar y superarlo todo juntos.`}
     >
-      <div className="w-full  text-white">
+      <div className="w-full  text-blakc">
         <div className="mx-auto flex h-full w-full max-w-screen-lg flex-col justify-center p-4 ">
           <div className="grid gap-8 md:p-12 grid-cols-1 lg:grid-cols-3">
             {portfolios.map(({ id, src, title, hour,code }) => (
