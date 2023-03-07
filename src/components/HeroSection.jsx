@@ -1,7 +1,7 @@
 import React from "react";
 
 
-import heroImg from "@/assets/home.svg";
+import heroImg from "@/assets/home.png";
 
 const HeroSection = () => {
   
