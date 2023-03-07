@@ -1,5 +1,5 @@
 import React from "react";
-import invitacionImg from "@/assets/invitacion.svg";
+import invitacionImg from "@/assets/invitacion.png";
 import PageSection from "@/components/PageSection";
 import invitacionVideo from '@/assets/invitacion.mp4'
 const Services = () => {
@@ -16,7 +16,7 @@ const Services = () => {
           
             <img
               src={invitacionImg}
-              className="rounded-lg shadow-xl shadow-thPrimary  object-cover   "
+              className="rounded-lg shadow-xl shadow-thPrimary  object-cover  w-[350px] md:h-[589px] "
             />
           
         </div>
