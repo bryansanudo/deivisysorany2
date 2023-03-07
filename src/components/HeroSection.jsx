@@ -1,7 +1,7 @@
 import React from "react";
 
 
-import heroImg from "@/assets/home.png";
+import heroImg from "@/assets/heroImage.png";
 
 const HeroSection = () => {
   
