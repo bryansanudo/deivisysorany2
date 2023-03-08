@@ -3,13 +3,13 @@ import React from "react";
 const ContactForm = () => {
   return (
     <div className="p-4 text-left  mx-auto">
-      <form action="" mthod="POST">
+      <form action="https://getform.io/f/fbcce5fc-8e1d-41be-a275-43ba9f9a8bc9" method="POST">
         <div className="grid lg:grid-cols-2 gap-4 w-full py-2">
           <div className="flex flex-col col-span-2 ">
             <label className="capitalize text-sm py-2 font-semibold">Nombre Completo</label>
             <input
               type="text"
-              name="name"
+              name="Nombre"
               className="border-2 text-gray-900 rounded-lg p-2 flex shadow-md shadow-thPrimary focus:outline-none"
             />
           </div>
@@ -19,7 +19,7 @@ const ContactForm = () => {
             </label>
             <input
               type="text"
-              name="phone"
+              name="Celular"
               className="border-2 text-gray-900 rounded-lg p-2 flex shadow-md shadow-thPrimary focus:outline-none"
             />
           </div>
@@ -27,7 +27,7 @@ const ContactForm = () => {
             <label className="capitalize text-sm py-2 font-semibold">Ciudad de Residencia</label>
             <input
               type="text"
-              name="email"
+              name="Ciudad"
               className="border-2 text-gray-900 rounded-lg p-2 flex shadow-md shadow-thPrimary focus:outline-none"
             />
           </div>
@@ -35,7 +35,7 @@ const ContactForm = () => {
             <label className="capitalize text-sm py-2 font-semibold">EPS</label>
             <input
               type="text"
-              name="email"
+              name="EPS"
               className="border-2 text-gray-900 rounded-lg p-2 flex shadow-md shadow-thPrimary focus:outline-none"
             />
           </div>
@@ -43,7 +43,7 @@ const ContactForm = () => {
             <label className="capitalize text-sm py-2 font-semibold">Alergias Alimentarias</label>
             <input
               type="text"
-              name="email"
+              name="Alergias"
               className="border-2 text-gray-900 rounded-lg p-2 flex focus:outline-none shadow-md shadow-thPrimary"
             />
           </div>
