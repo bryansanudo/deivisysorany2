@@ -35,11 +35,7 @@ const Navbar = () => {
     <>
       <div className="fixed w-full h-36  bg-black text-white z-20 ">
         <div className="flex justify-between lg:justify-center md:gap-5 items-center max-w-screen-xl mx-auto px-4 h-full">
-          <a
-            href="https://www.instagram.com/sarazapata144/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          
             
               
               <img
@@ -48,7 +44,7 @@ const Navbar = () => {
                 className="rounded-full object-cover  h-28 w-28  duration-300 shadow-xl cursor-pointer shadow-thSecondary hover:shadow-thPrimary"
               />
             
-          </a>
+         
 
           <div className="hidden lg:flex items-center">
             <ul className="flex">
