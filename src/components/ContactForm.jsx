@@ -3,7 +3,7 @@ import React from "react";
 const ContactForm = () => {
   return (
     <div className="p-4 text-left  mx-auto">
-      <form action="https://getform.io/f/fbcce5fc-8e1d-41be-a275-43ba9f9a8bc9" method="POST">
+      <form action="https://getform.io/f/b9b0b425-a00e-410e-8505-5569e8413ed6" method="POST">
         <div className="grid lg:grid-cols-2 gap-4 w-full py-2">
           <div className="flex flex-col col-span-2 ">
             <label className="capitalize text-sm py-2 font-semibold">Nombre Completo</label>
