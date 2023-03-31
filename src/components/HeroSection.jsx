@@ -1,6 +1,6 @@
 import React from "react";
 
-import heroImg from "@/assets/home.svg";
+import heroImg from "@/assets/home.png";
 import { motion } from "framer-motion";
 
 import { staggerContainer } from "@/utils/motion";
