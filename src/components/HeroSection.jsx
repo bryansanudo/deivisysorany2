@@ -1,24 +1,26 @@
 import React from "react";
 
+import heroImg from "@/assets/home.svg";
+import { motion } from "framer-motion";
 
-import heroImg from "@/assets/heroImage.png";
+import { staggerContainer } from "@/utils/motion";
+import { fadeIn, zoomIn } from "@/utils/motion";
 
 const HeroSection = () => {
-  
-
- 
-
   return (
-    <div
-      name="invitacion"
-      className="flex items-end justify-center   w-full h-screen text-center  "
+    <motion.div
+      variants={staggerContainer}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      className="min-h-screen flex flex-col justify-start items-center p-5 text-center  "
     >
-      <img
+      <motion.img
+        /*  variants={zoomIn(1, 1)} */
         src={heroImg}
-        className=" object-cover h-full w-full absolute -z-10"
+        className="lg:h-full lg:w-[800px] object-cover mt-[200px] md:mt-[0px] object-top "
       />
-      
-    </div>
+    </motion.div>
   );
 };
 
