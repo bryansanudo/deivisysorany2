@@ -12,6 +12,7 @@
   html {
     font-family: 'Montserrat', sans-serif;
     background: #fff;
+    overflow-x: hidden;
     @apply tracking-wider text-black
   }
 }
